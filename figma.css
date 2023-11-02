@@ -24,6 +24,7 @@ ul {
 }
 body{
   background-color: #000;
+  overflow-x: hidden;
 }
 .monkey_bg{
  position: absolute;
@@ -130,6 +131,7 @@ transform: scale(1.2);
 .gradient-text{
   background-image: linear-gradient(to right,#43D137, #A9D137);
   -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   font-family: "Roboto";
   font-style: italic;
@@ -577,10 +579,210 @@ gap: 40px;
 }
 
 @media screen and (max-width: 768px) {
-
 }
+
+@media screen and (max-width: 380px) {
+  .header__top{
+    padding-bottom: 25px;
+    gap: 1px;
+  }    
+  .works-contacts{
+    grid-gap: 0px 10px;
+    }
+    .container{
+      max-width: 400px;
+      padding: 0 0;
+    }
+    .calculator{
+      padding-left: 0px;
+      margin: 10px;
+    }
+    .outer-container {
+      flex-direction: column;
+      width: 190%;
+      height: 600px;
+      padding: 0 130px 0 40px;
+    }
+    .inner-container{
+    flex-direction: column;
+    width: 300px;
+    height: 450px;
+   
+    }
+    /* #white{
+      width: 300px; */
+    }
+    .inner-container-bg{
+      width: 300px;
+    }
+    .ractangle{
+      flex-direction: column;
+    }
+    .size-text{
+      font-size: 30px;
+    }
+    .input-form{
+      font-size: 30px;
+    }
+    .white_card{
+      width: 500px;
+      bottom: -50px;
+    }
+    .black_card{
+      width: 500px;
+      bottom: -110px;
+    }
+    .udaev_p_text{
+      padding-top: 1200px;
+      width: 380px;
+      font-size: 75px;
+      text-align: center;
+    }
+    .udaev_p_text_container{
+      width: 200px;
+    }
+    .udaev_p_text2{
+      width: 210px;
+      text-align: center;
+    }
+    .ractangle{
+      margin-top: 400px;
+      margin-left: 55px;
+    }
+    .oval_black{
+    padding-top: 200px;
+      padding-left: 1px;
+    }
+    .oval_white{
+      padding-top: 700px ;
+      padding-left: 150px;
+    }
+    .udaev_png{
+    width: 500px;
+  }
+  .blur_white{
+    width: 315px;
+    height: 500px;
+    left: 22px;
+  }
+  .blur_green{
+    width: 325px;
+    height: 500px ;
+    left: 18px;
+    top: -110px;
+  }
+  .main_4_2{
+    flex-direction: column;
+    gap: 250px;
+    margin-top: -45px;
+    padding: 0 10px;
+    gap: 150px;
+  }
+  .tab_4_img{
+    left: -100px;
+    top: 4300px;
+    padding: 0 10px;
+  }
+  .bez_poniatia{
+    margin-left: 55px;
+    gap: 100px;
+    margin-top: 55px;
+  }
+  .bez_poniatia2{
+    margin-left: 55px;
+    gap: 100px;
+    margin-top: 1px;
+  }
+  .text_p{
+    flex-direction: column;
+  }
+  .img_man{
+    width: 400px;
+  }
+  .p_Nikita{
+  padding-top: 10px;
+  font-size: 35px;
+  padding-left: 55px;
+  }
+  .p_1995{
+    padding-top: 10px;
+    font-size: 35px;
+    padding-left: 98px;
+  }
+    
+.osnovatel_stydii-h{
+  font-size: 58px;
+  padding-left: 0;
+}
+
+  .osnovatel_stydii{
+    font-size: 50px;
+    width: 400px;
+    padding-left: 1px;
+  }
+  .main_text_money{
+    width: 420px;
+  }
+  .text_money{
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 28px;
+    max-width: 380px;
+  }
+  .img_jpeg35{
+    padding-top: 550px;
+    padding-left: 15px;
+  }
+  .img_man{
+    padding-left: 35px;
+  }
+  .img_man img {
+    display: none;
+  }
+  .main-nikita-udaev{
+    background-image: url(img/8p5bwwsg.png);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+  }
+  
+  .last_white_background{
+    margin-top: 60px;
+    height: 900px;
+  }
+  .last_DIV{
+    background-position-y: 15px;
+    max-width: 1400px;
+    height: 100px;
+    transform: translate(0px, 0px);
+  padding: 10px;
+  background-size: 420px;
+  
+  }
+  .logogo2{
+    padding-top: 0;
+    padding-left: 0;
+  }
+  .last_text_contacts{
+    margin-left: 55px;
+    font-size: 10px;
+    margin-top: -25px;
+    gap: 15px;
+    max-width: 380px;
+  }
+  .logogo2 img{
+    width: 35px;
+    height: auto;
+  }
+
 @media screen and (max-width: 420px) {
   
+.header__top{
+  padding-bottom: 25px;
+}
+  .container{
+    max-width: 400px;
+    padding: 0 0;
+  }
   .calculator{
     padding-left: 0px;
     margin: 10px;
@@ -593,7 +795,7 @@ gap: 40px;
   }
   .inner-container{
   flex-direction: column;
-  width:350px;
+  width: 300px;
   height: 450px;
  
   }
@@ -639,21 +841,21 @@ gap: 40px;
     padding-left: 1px;
   }
   .oval_white{
-    padding-top: 700px ;
-    padding-left: 200px;
+    padding-top: 800px ;
+    padding-left: 100px;
   }
   .udaev_png{
   width: 500px;
 }
 .blur_white{
-  width: 350px;
+  width: 320px;
   height: 500px;
-  left: 22px;
+  left: 20px;
 }
 .blur_green{
-  width: 350px;
+  width: 320px;
   height: 500px ;
-  left: 18px;
+  left: 20px;
   top: -110px;
 }
 .main_4_2{
@@ -674,7 +876,7 @@ gap: 40px;
   margin-top: 55px;
 }
 .bez_poniatia2{
-  margin-left: 55px;
+  margin-left: 50px;
   gap: 100px;
   margin-top: 1px;
 }
@@ -687,12 +889,13 @@ gap: 40px;
 .p_Nikita{
 padding-top: 10px;
 font-size: 35px;
-padding-left: 80px;
+padding-left: 55px;
 }
 .p_1995{
   padding-top: 10px;
   font-size: 35px;
-  padding-left: 120px;}
+  padding-left: 98px;
+}
   
 .osnovatel_stydii{
   font-size: 54px;
@@ -705,7 +908,8 @@ padding-left: 80px;
 .text_money{
   padding-top: 20px;
   padding-left: 10px;
-  font-size: 23px;
+  font-size: 28px;
+  max-width: 380px;
 }
 .img_jpeg35{
   padding-top: 550px;
@@ -733,7 +937,7 @@ padding-left: 80px;
   height: 100px;
   transform: translate(0px, 0px);
 padding: 10px;
-background-size: 420px;
+background-size: 380px;
 
 }
 .logogo2{
@@ -744,6 +948,7 @@ background-size: 420px;
   margin-left: 70px;
   font-size: 10px;
   margin-top: -25px;
+  gap: 15px;
 }
 .logogo2 img{
   width: 35px;
