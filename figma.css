@@ -4,7 +4,61 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  overflow-x: hidden;
+  background-color: #000;
+  transition: 0.5s;
+}
 
+#moonlink {
+  margin-left: 10px;
+}
+.circle.active {
+  border:#A8CF36 3px solid !important;
+  border-radius: 1000px;
+}
+.circle {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#themeToggleContainer{
+  display: flex;
+}
+#themeToggleContainer a {
+  margin: 0 10px;
+  cursor: pointer;
+  color: #000;
+}
+.light-mode{
+  background-color: #fff;
+  color: #fff;
+}
+.light-mode #themeToggleContainer a {
+  color: #FFF;
+}
+.light-mode a {
+  color: #fff;
+}
+
+.light-mode h1, .light-mode h2, .light-mode h3, .light-mode p ,.light-mode a , .light-mode {
+  color: #000;
+}
+.light-mode .a-cont{
+  color: #A8CF36;
+}
+.light-mode .udaev_p_text2{
+color: #7D7D7D;
+}
+.light-mode .span_udaev{
+color: #000;
+}
+.light-mode .svg {
+  filter: brightness(0);
+}
 a {
   text-decoration: none;
   color:inherit;
@@ -22,10 +76,7 @@ ul {
 .photo-container img {
   margin-right: 100px;
 }
-body{
-  background-color: #000;
-  overflow-x: hidden;
-}
+
 .monkey_bg{
  position: absolute;
  z-index: -1;
@@ -80,12 +131,19 @@ body{
   transform: rotate(360deg);
 }
 .elm img{
-  width: 11px;
-  height: 11px;
+  width: 35px;
+  height: 50px;
+}
+.elm{
+  width: fit-content;
+  height: auto;
 }
 .active{
-  border: 2px solid #A8CF36;
-  border-radius: 50%;
+  filter: brightness(1); 
+}
+.akar{
+  width: auto;
+  height: 10px;
 }
 nav ul{
   display: flex;
@@ -274,7 +332,7 @@ text-align: center;
 font-size: 96px;
 font-style: normal;
 font-weight: 400;
-line-height: 80%; /* 76.8px */
+line-height: 80%; 
 font-family:"Roboto";
 padding-top: 490px;
 }
@@ -285,13 +343,13 @@ font-family:Roboto;
 font-size: 18px;
 padding-top: 30px;
 font-weight: 400;
-line-height: 154%; /* 27.72px */
+line-height: 154%; 
 letter-spacing: -0.09px;
 }
 .span_udaev{
   color: #FFF;
 font-size: 18px;
-font-style: Roboto;
+font-style:Roboto;
 font-weight: 700;
 line-height: 154%;
 letter-spacing: -0.09px;

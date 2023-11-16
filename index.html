@@ -10,9 +10,16 @@
     <header>
         <div class="container">
             <div class="header__top">
-                <div class="logo"> <a href=""><img src="img/YUDAEV BRANDING.svg" alt=""></a> </div>
+                <div class="logo"> <a class="logo-color" href=""><img id="logo-svg" src="img/YUDAEV BRANDING.svg" alt=""></a> </div>
                 <div class="logo2"> <a href=""><img src="img/Group 31.svg" alt=""></a> </div>
-                <div class="elm"> <span><img class="active" src="img/ic_baseline-mode-night.svg" alt=""></span><span> <img src="img/akar-icons_sun-fill.svg" alt=""></span> </div>
+                <div class="elm" id="themeToggleContainer" >
+                    <div class="circle" id="sunLink">
+                        <img class="svg" src="img/ic_baseline-mode-night.svg" alt="">
+                    </div>
+                    <div class="circle" id="moonLink">
+                        <img class="svg" src="img/akar-icons_sun-fill.svg" alt="">
+                    </div>
+                </div>
                 <nav>
                     <ul class="works-contacts">
                         <li><a href="">WORKS</a></li>
@@ -111,7 +118,7 @@
      <img class="tab_4_img" src="img/Yudaev.png" alt="">
     </div>
     <div class="main_reviews">
-        <div class="reviews">ОТЗЫВЫ</div>
+        <div class="reviews"><p>ОТЗЫВЫ</p></div>
         <div class="bez_poniatia">
             <img src="img/Ellipse 11.png" alt="">
             <img src="img/Ellipse 12.png" alt="">
@@ -152,11 +159,12 @@
     </div>
 </div>
 <div class="last_text_contacts">
-    <a href="">Yudaev.branding@gmail.com</a>
-    <a href="">Behance</a>
-    <a href="">Dribbble</a>
-    <a href="">Instagram</a>
+    <a class="a-cont" href="">Yudaev.branding@gmail.com</a>
+    <a class="a-cont" href="">Behance</a>
+    <a class="a-cont" href="">Dribbble</a>
+    <a class="a-cont" href="">Instagram</a>
 </div>
     </div>
+    <script src="/index.js"></script>
 </body>
 </html>  
